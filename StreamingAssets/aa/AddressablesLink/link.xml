@@ -4,6 +4,7 @@
     <type fullname="DestructibleObjects" preserve="all" />
     <type fullname="Enemy.Attack" preserve="all" />
     <type fullname="Enemy.ChasePlayer" preserve="all" />
+    <type fullname="Enemy.DissolveEnemy" preserve="all" />
     <type fullname="Enemy.EnemyDeath" preserve="all" />
     <type fullname="Enemy.EnemyHealth" preserve="all" />
     <type fullname="Enemy.EnemyPool" preserve="all" />
