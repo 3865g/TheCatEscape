@@ -1,7 +1,7 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Assets.Scripts.UI.Elements.OpenWindowButton" preserve="all" />
-    <type fullname="DestructibleObjects" preserve="all" />
+    <type fullname="Audio.AudioPlayer" preserve="all" />
     <type fullname="Enemy.Attack" preserve="all" />
     <type fullname="Enemy.ChasePlayer" preserve="all" />
     <type fullname="Enemy.DissolveEnemy" preserve="all" />
@@ -12,6 +12,7 @@
     <type fullname="Enemy.LootPiece" preserve="all" />
     <type fullname="Enemy.WaveManager" preserve="all" />
     <type fullname="Logic.CameraBoundsVisualizer" preserve="all" />
+    <type fullname="Logic.DestructibleObjects" preserve="all" />
     <type fullname="Logic.EnemySpawners.SpawnPoint" preserve="all" />
     <type fullname="Logic.GameManager" preserve="all" />
     <type fullname="Logic.Gates.FinishScreenGate" preserve="all" />
@@ -30,6 +31,7 @@
     <type fullname="TabsManager" preserve="all" />
     <type fullname="UI.Elements.AbilityUI" preserve="all" />
     <type fullname="UI.Elements.ActorUI" preserve="all" />
+    <type fullname="UI.Elements.AudioSettings" preserve="all" />
     <type fullname="UI.Elements.ChangeLevelButton" preserve="all" />
     <type fullname="UI.Elements.FloatingText" preserve="all" />
     <type fullname="UI.Elements.HpBar" preserve="all" />
@@ -88,10 +90,18 @@
     <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
     <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
   </assembly>
+  <assembly fullname="UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEditor.Audio.AudioMixerSnapshotController" preserve="all" />
+  </assembly>
   <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.AnimationClip" preserve="all" />
     <type fullname="UnityEngine.Animator" preserve="all" />
     <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Audio.AudioMixer" preserve="all" />
+    <type fullname="UnityEngine.Audio.AudioMixerGroup" preserve="all" />
+    <type fullname="UnityEngine.AudioSource" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.GameObject" preserve="all" />
